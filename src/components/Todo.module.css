@@ -1,0 +1,64 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--gray-500);
+  
+  width: 46rem;
+
+  border: 1px solid #333333;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+}
+
+.notToggled {
+  background-color: var(--gray-500);
+  border: none;
+  color: var(--blue);
+
+  transition: 0.5s ease;
+  cursor: pointer;
+  padding: 0.875rem 0.75rem 0.875rem 0.875rem;
+}
+
+.toggled {
+  background-color: var(--gray-500);
+  border: none;
+  color: var(--purple-dark);
+
+  transition: 0.5s ease;
+  cursor: pointer;
+  padding: 0.875rem 0.75rem 0.875rem 0.875rem;
+}
+
+.toggled:hover {
+  color: var(--purple);
+}
+
+.notToggled:hover {
+  color: var(--blue-dark);
+}
+
+.trash {
+  background-color: var(--gray-500);
+  border: none;
+  color: var(--gray-300);
+  cursor: pointer;
+  padding: 0.875rem 0.875rem 0.875rem 0.75rem;
+}
+
+.text1 {
+  padding: 1rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 140%;
+  color: var(--gray-300);
+  text-decoration-line: line-through;
+}
+
+.text2 {
+  padding: 1rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 140%;
+  color: var(--white);
+}
